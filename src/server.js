@@ -7,10 +7,6 @@ const ROOT_PATH = path.resolve(__dirname,'..', 'pages');
 
 app.use(express.static(ROOT_PATH));
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(ROOT_PATH, 'lab1'));
-});
-
 app.listen(PORT, () => {
     console.log(`Сервер запущен на http://localhost:${PORT}`);
 });
