@@ -13,6 +13,7 @@ container.appendChild(linksContainer);
 const pages = [
   { name: "lab1", url: "http://localhost:3000/lab1/lab1.html" },
   { name: "lab2", url: "http://localhost:3000/lab2/lab2.html" },
+  { name: "lab3", url: "http://localhost:3000/lab3/lab3.html" }
 ];
 
 pages.forEach((page) => {
